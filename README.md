@@ -16,10 +16,6 @@
 
 (X) `car` ( ) `make` ( ) `model` ( ) `vehicle`
 
-?: To follow a pattern of _logical design_, if we have a `Car` class, what should the table be named?
-
-(X) `car` ( ) `make` ( ) `model` ( ) `vehicle`
-
 ?:
 
 ```ruby
@@ -49,11 +45,11 @@ In order to "map" this `Car` class to a `cars` database table, what needs to be 
 ```ruby
 DB = {conn => SQLite3::Database.new("db/database.db")}
 ```
-()
+( )
 ```ruby
 DB = {:conn => SQLite3::Database("db/database.db")}
 ```
-()
+( )
 ```ruby
 db = {:conn => SQLite3::Database.new("db/database.db")}
 ```
