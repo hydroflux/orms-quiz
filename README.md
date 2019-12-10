@@ -14,7 +14,7 @@
 
 ?: To follow a pattern of _logical design_, if we have a `Car` class, what should the table be named?
 
-(X) `car` ( ) `make` ( ) `model` ( ) `vehicle`
+(X) `cars` ( ) `make` ( ) `model` ( ) `vehicle`
 
 ?:
 
@@ -112,7 +112,7 @@ end
 ```ruby
 class Car
 
-  def initialize(make, model, id=nil)
+  def initialize(make, model, id)
     @id = id
     @make = make
     @model = model
